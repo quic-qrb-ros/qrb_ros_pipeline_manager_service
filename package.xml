@@ -1,0 +1,25 @@
+<package format="2">
+  <name>qrb_ros_pipeline_manager</name>
+  <version>0.0.1</version>
+  <description>Pipeline Manager for ROS2</description>
+  <maintainer email="quic_zhaochen@quicinc.com">Zhaochen</maintainer>
+  <license>BSD-3-Clause-Clear</license>
+
+  <buildtool_depend>ament_cmake_auto</buildtool_depend>
+
+  <build_depend>rclcpp</build_depend>
+  <build_depend>rcl_interfaces</build_depend>
+  <build_depend>rclcpp_components</build_depend>
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>rcl_interfaces</exec_depend>
+  <exec_depend>rclcpp_components</exec_depend>
+
+  <depend>std_srvs</depend>
+  <depend>qrb_ros_pipeline_manager_msgs</depend>
+  <depend>ament_index_cpp</depend> 
+ 
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
